@@ -5,5 +5,5 @@ function pergaminhoExoriu1.onUse(player, item, fromPosition, target, toPosition,
 		item:transform(2666)
 end
 
-pergaminhoExoriu1:id(7529)
+pergaminhoExoriu1:id(7530)
 pergaminhoExoriu1:register()
