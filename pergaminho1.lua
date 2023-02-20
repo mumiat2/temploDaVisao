@@ -4,7 +4,7 @@ function pergaminhoExoriu.onUse(player, item, fromPosition, target, toPosition, 
 	local magia = "Berserkiu"
 	local saber = player:getStorageValue(Storage.spell.attack.Berserkiu) == 1
 				
-	if saber then
+	if saber == 1 then
 	player:say("Você já aprendeu a magia deste scroll")
 
 	else
@@ -17,3 +17,4 @@ end
 
 pergaminhoExoriu:id(7530)
 pergaminhoExoriu:register()
+
